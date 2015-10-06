@@ -2,14 +2,38 @@
 p{
     /*width: 800px;*/
     padding: 0 20px;
+    color: grey;
+    text-align: center;
 }
+.p-special {
+    color: black;
+    font-family: "Arial";
+    font-size: 20px;
+    line-height: 50px;
+    padding: 10px;
+
+}
+
+h2 {
+    color: white;
+    line-height: 20px;
+    font-family: "Arial"
+}
+
 body{
     margin: 0;
+    background-color: black;
+}
+#pagewrap {
+    padding: 5px;
+    width: 960px;
+    margin: 20px auto;
 }
 
 #header {
-    background-color:lightblue;
-    font-size: 24px;
+    background-color: black;
+    font-size: 18px;
+    height: 100px;
     color:white;
     text-align:left;
     padding:15px;
@@ -18,16 +42,18 @@ body{
     z-index: 2;
 }
 #nav {
-    line-height:30px;
-    background-color:#eeeeee;
-    height:1000px;
-    width:100px;
-    float:left;
-    padding:5px; 
+    line-height: 30px;
+    height: 1000px;
+    width: 100px;
+    float: left;
+    padding: 5px; 
 }
 .header-name{
     display: inline-block;
     vertical-align: middle;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 20px;
 }
 nav{
     display: inline-block;
@@ -35,50 +61,75 @@ nav{
 
 .logo{
     width: 100px;
+    padding: 10px;
     display: inline-block;
     vertical-align: middle;
+
+}
+#first {
+    width: 290px;
+    height: 1000px;
+    float: left;
+    padding: 200px 15px;
+    margin: 0px 5px 5px 180px;
+    background-color: orange;
+    color: white;
 }
 
+#second {
+    width: 294px;
+    height: 1000px;
+    float: left;
+    padding: 200px 15px;
+    margin: 0px 5px 5px 5px;
+    background-color: orange;
+}
 ul{
     margin-left: 300px;
     display: inline-block;
 }
 li{
     margin: 0 30px;
-    padding: 6px 8px;
-    border-radius: 10px;
-    background-color: black;
+    padding: 2px 8px;
+    border-radius: 10px 0;
+    background-color: orange;
     display: inline-block;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px; 
 }
 
-
 #section {
-    margin-top: 149px;
+    margin-top: 150px;
     /*width:350px;*/
     float:left;
     /*padding:10px; */
     width: 100%
 }
 .bg-image{
-    background: url("../images/homebgrnd.jpg");
+    background: url("../images/moodswing2.jpg");
     background-size: cover;
-    height: 500px;
+    height: 650px;
 }
-.image-text{
+/*.image-text{
+    display: block;
+    background-color: red;
+    border-radius: 10px;
+    width: 40px;
+    padding: 20px;
     position: relative;
     top: -150px;
     z-index: 1;
     color: #fff;
-}
+    margin-left: 30px;
+}*/
 #footer {
     text-align: center;
     background-color:black;
-    color:white;
-    clear:both;
-    padding:5px; 
+    color:orange;
+    clear: both;
 }
 
-a:link    {color:green; background-color:transparent; text-decoration:none}
-a:visited {color:pink; background-color:transparent; text-decoration:none}
-a:hover   {color:red; background-color:transparent; text-decoration:underline}
+a:link    {color:white; background-color:transparent; text-decoration:none}
+a:visited {color:white; background-color:transparent; text-decoration:none}
+a:hover   {color:red; background-color:transparent; text-decoration:underline; font-size: 120%}
 a:active  {color:yellow; background-color:transparent; text-decoration:underline}
